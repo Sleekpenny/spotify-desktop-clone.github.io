@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fontyoutube {
+    font-size: 0.8vh;
+}
+
+.font1{
+    font-size:1.7vh;
+    font-family: corbel ;
+    font-weight: 700;
+}
+
+.translate {
+    transform: translateY(-0.2rem);
+}
+
+.font2 {
+    font-size: 1.5vh;
+}

@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube clone</title>
+    <link rel="stylesheet" href="/build/css/style.css" />
+    <link rel="stylesheet" href="/build/css/css/solid.css" />
+    <link rel="stylesheet" href="/build/css/css/brands.csss" />
+    <link rel="stylesheet" href="/build/css/css/fontawesome.css" />
+  </head>
+
+  <body class="min-h-screen p-8">
+    <!-- Header section -->
+    <section class="header flex items-center justify-between p-3">
+      <div class="flex items-center gap-4">
+        <div class="text-2xl font-bold">&#9776;</div>
+        <div class="relative">
+          <img
+            src="/build/images/images (1).jpeg"
+            alt="youtube"
+            width="120"
+            height="50"
+          />
+          <span class="font2 absolute -top-2 left-32 font-bold text-gray-600"
+            >NG</span
+          >
+        </div>
+      </div>
+
+      <!-- Search bar -->
+      <div class="flex w-2/5 items-center">
+        <label for="text" name="Search" class="flex w-full">
+          <input
+            type="text"
+            id="text"
+            class="w-full rounded-l-2xl border-2 border-gray-300 p-1 text-sm outline-none focus:bg-gray-100"
+            placeholder="Search"
+          />
+          <button>
+            <i
+              class="fa-solid fa-search rounded-r-2xl border-2 border-solid border-gray-300 bg-gray-100 p-2 px-6 text-gray-500"
+            ></i>
+          </button>
+        </label>
+        <i class="fa-solid fa-microphone mx-6"></i>
+      </div>
+
+      <!-- right end: account detail -->
+      <div class="flex items-center gap-4">
+        <i class="fa-solid fa-video text-2xl text-black"></i>
+        <i class="fa-solid fa-bell text-bborder-l-black relative text-2xl">
+          <div
+            class="fontyoutube absolute -top-2 left-2 rounded-3xl bg-red-600 px-1 text-sm text-white"
+          >
+            9+
+          </div>
+        </i>
+        <div class="h-8 w-8 rounded-2xl bg-gray-400"></div>
+      </div>
+    </section>
+
+    <!-- Right navigation bar  -->
+    <section class="flex min-h-screen gap-4">
+      <!-- First Layer -->
+      <section class="borer-4 borde-black mt-6 w-72">
+        <div class="flex flex-col">
+          <p
+            i
+            class="fa-solid fa-home cursor-pointer rounded-xl p-2 px-4 hover:bg-gray-200"
+          >
+            <span class="font1 mx-6 font-light">Home</span>
+          </p>
+
+          <p
+            class="mt-2 flex cursor-pointer rounded-xl p-2 px-4 hover:bg-gray-200"
+          >
+            <img
+              src="/build/images/icons8-google-ads-50.png"
+              alt="shorts"
+              width="22"
+            /><span class="font1 mx-6 font-light">Shorts</span>
+          </p>
+
+          <p
+            class="mt-2 mb-6 flex cursor-pointer rounded-xl p-2 px-4 hover:bg-gray-200"
+          >
+            <img
+              src="/build/images/icons8-music-library-50.png"
+              alt="subs"
+              width="20"
+            /><span class="font1 mx-6 font-light">Subscriptions</span>
+          </p>
+
+          <hr />
+        </div>
+        <!-- Second layer -->
+        <div class="flex flex-col">
+          <p
+            class="mt-4 flex cursor-pointer rounded-xl p-2 px-4 hover:bg-gray-200"
+          >
+            <img
+              src="/build/images/icons8-music-folder-50.png"
+              alt="library"
+              width="20"
+            /><span class="font1 mx-6 font-light">Library</span>
+          </p>
+
+          <p
+            i
+            class="fa-solid fa-clock mt-2 cursor-pointer rounded-xl p-2 px-4 hover:bg-gray-200"
+          >
+            <span class="font1 mx-6 font-light">History</span>
+          </p>
+
+          <p
+            class="mt-2 flex cursor-pointer rounded-xl p-2 px-4 hover:bg-gray-200"
+          >
+            <img
+              src="/build/images/icons8-laptop-play-video-24.png"
+              alt="shorts"
+              width="22"
+            /><span class="font1 mx-6 font-light">Your videos</span>
+          </p>
+
+          <p
+            class="mt-2 flex cursor-pointer rounded-xl p-2 px-4 hover:bg-gray-200"
+          >
+            <img
+              src="/build/images/icons8-wall-clock-50.png"
+              alt="shorts"
+              width="22"
+            /><span class="font1 mx-6 font-light">Watch later</span>
+          </p>
+
+          <p
+            class="mt-2 mb-6 flex cursor-pointer rounded-xl p-2 px-4 hover:bg-gray-200"
+          >
+            <img
+              src="/build/images/icons8-like-thumbs-up-button-from-popular-social-media-48.png"
+              alt="shorts"
+              width="22"
+            /><span class="font1 mx-6 font-light">Watch later</span>
+          </p>
+
+          <hr />
+        </div>
+
+        <!-- Third layer -->
+        <div class="flex flex-col">
+          <p class="font1 mx-4 mt-4 font-light">Subscriptions</p>
+
+          <div
+            class="mt-2 flex cursor-pointer items-center justify-between hover:bg-gray-200"
+          >
+            <p class="flex rounded-3xl">
+              <img
+                src="/build/images/images (6).jpeg"
+                alt="sub1"
+                class="w-11 rounded-3xl"
+              />
+              <span
+                class="font1 mx-4 flex items-center justify-center font-light"
+                >Ling and Lamb
+              </span>
+            </p>
+            <div
+              class="-translate h-2 w-2 transform rounded-2xl bg-blue-700"
+            ></div>
+          </div>
+
+          <div
+            class="mt-2 flex cursor-pointer items-center justify-between hover:bg-gray-200"
+          >
+            <p class="flex rounded-3xl">
+              <img
+                src="/build/images/download.png"
+                alt="sub1"
+                class="w-11 rounded-3xl"
+              />
+              <span
+                class="font1 mx-4 flex items-center justify-center font-light"
+                >The Tony Elumel...</span
+              >
+            </p>
+            <div class="-translate h-2 w-2 transform rounded bg-blue-700"></div>
+          </div>
+
+          <div
+            class="mt-2 flex cursor-pointer items-center justify-between hover:bg-gray-200"
+          >
+            <p class="flex rounded-3xl">
+              <img
+                src="/build/images/download.jpeg"
+                alt="sub1"
+                class="w-11 rounded-3xl"
+              />
+              <span
+                class="font1 mx-4 flex items-center justify-center font-light"
+                >NateGotKeys & Nay...</span
+              >
+            </p>
+          </div>
+
+          <div
+            class="mt-2 flex cursor-pointer items-center justify-between hover:bg-gray-200"
+          >
+            <p class="flex rounded-3xl">
+              <img
+                src="/build/images/images (2).jpeg"
+                alt="sub1"
+                class="w-11 rounded-3xl"
+              />
+              <span
+                class="font1 mx-4 flex items-center justify-center font-light"
+              >
+                Zfancy</span
+              >
+            </p>
+          </div>
+
+          <div
+            class="mt-2 flex cursor-pointer items-center justify-between hover:bg-gray-200"
+          >
+            <p class="flex rounded-3xl">
+              <img
+                src="/build/images/download (1).jpeg"
+                alt="sub1"
+                class="w-11 rounded-3xl"
+              />
+              <span
+                class="font1 mx-4 flex items-center justify-center font-light"
+              >
+                Amiyah Jenn</span
+              >
+            </p>
+          </div>
+
+          <div
+            class="mt-2 flex cursor-pointer items-center justify-between hover:bg-gray-200"
+          >
+            <p class="flex rounded-3xl">
+              <img
+                src="/build/images/images (4).jpeg"
+                alt="sub1"
+                class="w-11 rounded-3xl"
+              />
+              <span
+                class="font1 mx-4 flex items-center justify-center font-light"
+              >
+                Sulit Tech Review</span
+              >
+            </p>
+
+            <div class="-translate h-2 w-2 transform rounded bg-blue-700"></div>
+          </div>
+
+          <div
+            class="mt-2 flex cursor-pointer items-center justify-between hover:bg-gray-200"
+          >
+            <p class="flex rounded-3xl">
+              <img
+                src="/build/images/images (5).jpeg"
+                alt="sub1"
+                class="w-9 rounded-3xl"
+              />
+              <span
+                class="font1 mx-4 flex items-center justify-center font-light"
+              >
+                Spiritcore</span
+              >
+            </p>
+          </div>
+
+          <div
+            class="mt-2 flex cursor-pointer items-center justify-between rounded hover:bg-gray-200"
+          >
+            <p class="ml-4 mb-8">
+              <i class="fa-solid fa-caret-down mr-4"></i>
+              <span class="font1 mx-4 font-light"> Show 2 more</span>
+            </p>
+          </div>
+          <hr />
+        </div>
+
+        <div class="flex flex-col">
+          <p class="font1 mx-4 mt-4 font-light">Explore</p>
+
+          <p
+            i
+            class="fa-solid fa-fire mt-2 cursor-pointer rounded-xl p-2 px-4 hover:bg-gray-200"
+          >
+            <span class="font1 mx-6 font-light">Trending</span>
+          </p>
+
+          <p
+            class="mt-2 flex cursor-pointer rounded-xl p-2 px-4 hover:bg-gray-200"
+          >
+            <img
+              src="/build/images/icons8-musical-24.png"
+              alt="musics"
+              width="22"
+            /><span class="font1 mx-6 font-light">Watch later</span>
+          </p>
+
+          <p
+            class="mt-2 flex cursor-pointer rounded-xl p-2 px-4 hover:bg-gray-200"
+          >
+            <img
+              src="/build/images/icons8-video-game-48.png"
+              alt="gaming"
+              width="22"
+            /><span class="font1 mx-6 font-light">Gaming</span>
+          </p>
+
+          <p
+            class="mt-2 flex cursor-pointer rounded-xl p-2 px-4 hover:bg-gray-200"
+          >
+            <img
+              src="/build/images/icons8-newspaper-48.png"
+              alt="gaming"
+              width="22"
+            /><span class="font1 mx-6 font-light">News</span>
+          </p>
+
+          <p
+            class="mt-2 flex cursor-pointer rounded-xl p-2 px-4 hover:bg-gray-200"
+          >
+            <img
+              src="/build/images/icons8-like-thumbs-up-button-from-popular-social-media-48.png"
+              alt="gaming"
+              width="22"
+            /><span class="font1 mx-6 font-light">My likes</span>
+          </p>
+
+          <hr />
+        </div>
+      </section>
+
+      <!-- middle body  -->
+      <section class="mt-6 w-full">
+        <div class="font1 flex w-full items-center justify-start space-x-3">
+          <div
+            class="cursor-pointer rounded bg-gray-200 px-2 hover:bg-black hover:text-white"
+          >
+            All
+          </div>
+          <div
+            class="cursor-pointer rounded bg-gray-200 px-3 hover:bg-black hover:text-white"
+          >
+            Music
+          </div>
+          <div
+            class="cursor-pointer rounded bg-gray-200 px-3 hover:bg-black hover:text-white"
+          >
+            Live
+          </div>
+          <div
+            class="cursor-pointer rounded bg-gray-200 px-3 hover:bg-black hover:text-white"
+          >
+            Nollywood
+          </div>
+          <div
+            class="cursor-pointer rounded bg-gray-200 px-3 hover:bg-black hover:text-white"
+          >
+            Burna Boy
+          </div>
+          <div
+            class="cursor-pointer rounded bg-gray-200 px-3 hover:bg-black hover:text-white"
+          >
+            Mixes
+          </div>
+          <div
+            class="cursor-pointer rounded bg-gray-200 px-3 hover:bg-black hover:text-white"
+          >
+            Playlists
+          </div>
+          <div
+            class="cursor-pointer rounded bg-gray-200 px-3 hover:bg-black hover:text-white"
+          >
+            Contemporary R&B
+          </div>
+          <div
+            class="cursor-pointer rounded bg-gray-200 px-3 hover:bg-black hover:text-white"
+          >
+            Regga
+          </div>
+          <div
+            class="cursor-pointer rounded bg-gray-200 px-2 hover:bg-black hover:text-white"
+          >
+            Dave
+          </div>
+          <div
+            class="cursor-pointer rounded bg-gray-200 px-2 hover:bg-black hover:text-white"
+          >
+            Web Development
+          </div>
+          <div
+            class="cursor-pointer rounded bg-gray-200 px-2 hover:bg-black hover:text-white"
+          >
+            Computer Application
+          </div>
+          <div
+            class="cursor-pointer rounded bg-gray-200 px-3 hover:bg-black hover:text-white"
+          >
+            Pop Music
+          </div>
+          <div
+            class="cursor-pointer rounded bg-gray-200 px-3 hover:bg-black hover:text-white"
+          >
+            Lesson
+          </div>
+          <div
+            class="cursor-pointer rounded bg-gray-200 px-3 hover:bg-black hover:text-white"
+          >
+            Frontend
+          </div>
+
+          <div
+            class="cursor-pointer rounded bg-gray-200 px-3 hover:bg-black hover:text-white"
+          >
+            Recently
+          </div>
+          <div class="fa-solid fa-caret-right"></div>
+        </div>
+
+        <!-- Youtube Videos -->
+        <div class="mt-8 flex items-center justify-start gap-6">
+          <div class="group">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/youtube images/images (1).png"
+                alt="firstimage"
+                width="400"
+                class="relative h-56 rounded-2xl"
+              />
+              <div
+                class="group-hover-bottom-0 absolute -bottom-10 w-full -translate-y-10 transform rounded-xl bg-black/50 opacity-0 transition-all duration-300 group-hover:opacity-100"
+              >
+                <div
+                  class="font1 m-1 flex h-8 w-96 items-center justify-start space-x-2 p-1 text-white"
+                >
+                  <i class="fa-solid fa-play text-white"></i>
+                  <div>Watch now</div>
+                  <input type="range" name="range" />
+                  <div>
+                    <i class="fa-solid fa-heart mx-12 hover:text-red-600"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="font1 flex items-center justify-between">
+              <p>Securiy Guide for Retailers</p>
+              <i class="fa-solid fa-list"></i>
+            </div>
+            <div class="font2 text-gray-600">
+              Download the Free Retail Cybersecurity Guide Today <br />
+              and Learn How to Reduce Risks.
+            </div>
+            <div class="font1 flex items-center justify-start gap-1">
+              Ad
+              <p class="h-1 w-1 rounded bg-gray-500"></p>
+              <p class="text-gray-700">Duo Security</p>
+            </div>
+          </div>
+          <!-- video list with header tags -->
+          <div class="group">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/youtube images/images (1).jpeg"
+                alt="firstimage"
+                width="400"
+                class="relative h-56 -translate-y-1 transform rounded-2xl"
+              />
+              <div
+                class="group-hover-bottom-0 absolute -bottom-10 w-full -translate-y-10 transform rounded-xl bg-black/50 opacity-0 transition-all duration-300 group-hover:opacity-100"
+              >
+                <div
+                  class="font1 m-1 flex h-8 w-full items-center justify-start space-x-2 p-1 text-white"
+                >
+                  <i class="fa-solid fa-play text-white"></i>
+                  <div>Watch now</div>
+                  <input type="range" name="range" />
+                  <div>
+                    <i class="fa-solid fa-heart mx-12 hover:text-red-600"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="font1 flex items-center justify-between">
+              <div class="flex items-center justify-center">
+                <img
+                  src="/build/images/images (1) (1).jpeg"
+                  alt="header1"
+                  width="50"
+                />
+                <p class="-mt-4">TEMS | 1 Hour of Chill Songs| Afrobeat/R&B</p>
+              </div>
+              <i class="fa-solid fa-list"></i>
+            </div>
+            <div class="font2 mx-12 -mt-4 w-fit text-gray-600">
+              DJ Hol Up <i class="fa-solid fa-music text-black"></i>
+              <div class="font1 flex items-center justify-start gap-1">
+                4.7M views
+                <p class="h-1 w-1 rounded bg-gray-500"></p>
+                <p class="text-gray-600">9 months ago</p>
+              </div>
+            </div>
+          </div>
+          <!-- video list with header tags -->
+          <div class="group">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/youtube images/images (4).jpeg"
+                alt="firstimage"
+                width="400"
+                class="relative h-56 -translate-y-1 transform rounded-2xl"
+              />
+              <div
+                class="group-hover-bottom-0 absolute -bottom-10 w-full -translate-y-10 transform rounded-xl bg-black/50 opacity-0 transition-all duration-300 group-hover:opacity-100"
+              >
+                <div
+                  class="font1 m-1 flex h-8 w-full items-center justify-start space-x-2 p-1 text-white"
+                >
+                  <i class="fa-solid fa-play text-white"></i>
+                  <div>Watch now</div>
+                  <input type="range" name="range" />
+                  <div>
+                    <i class="fa-solid fa-heart mx-12 hover:text-red-600"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="font1 flex items-center justify-between">
+              <div class="flex items-center justify-center">
+                <img
+                  src="/build/images/images (1) (1).jpeg"
+                  alt="header1"
+                  width="50"
+                />
+                <p class="-mt-4">Made Japanese WAGYU at Home- How'd it</p>
+              </div>
+              <i class="fa-solid fa-list"></i>
+            </div>
+            <div class="font2 mx-12 -mt-4 w-fit text-gray-600">
+              Ling and Lamb <i class="fa-solid fa-music text-black"></i>
+              <div class="font1 flex items-center justify-start gap-1">
+                80k views
+                <p class="h-1 w-1 rounded bg-gray-500"></p>
+                <p class="text-gray-600">2 days ago</p>
+              </div>
+            </div>
+          </div>
+          <!-- video list with header tags -->
+          <div class="group">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/youtube images/images (5).jpeg"
+                alt="firstimage"
+                width="400"
+                class="relative h-56 -translate-y-1 transform rounded-2xl"
+              />
+              <div
+                class="group-hover-bottom-0 absolute -bottom-10 w-full -translate-y-10 transform rounded-xl bg-black/50 opacity-0 transition-all duration-300 group-hover:opacity-100"
+              >
+                <div
+                  class="font1 m-1 flex h-8 w-full items-center justify-start space-x-2 p-1 text-white"
+                >
+                  <i class="fa-solid fa-play text-white"></i>
+                  <div>Watch now</div>
+                  <input type="range" name="range" />
+                  <div>
+                    <i class="fa-solid fa-heart mx-12 hover:text-red-600"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="font1 flex items-center justify-between">
+              <div class="flex items-center justify-center">
+                <img
+                  src="/build/images/images (1) (1).jpeg"
+                  alt="header1"
+                  width="50"
+                />
+                <p class="-mt-4">
+                  Lagos big girl -SE1 Ep1 (Timini Egbuson, El..
+                </p>
+              </div>
+              <i class="fa-solid fa-list"></i>
+            </div>
+            <div class="font2 mx-12 -mt-5 w-fit text-gray-600">
+              Cotserires
+              <div class="font1 flex items-center justify-start gap-1">
+                120k views
+                <p class="h-1 w-1 rounded bg-gray-500"></p>
+                <p class="text-gray-600">1 month</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-8 flex items-center justify-start gap-6">
+          <div class="group">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/youtube images/images (8).jpeg"
+                alt="firstimage"
+                width="400"
+                class="relative h-56 -translate-y-1 transform rounded-2xl"
+              />
+              <div
+                class="group-hover-bottom-0 absolute -bottom-10 w-full -translate-y-10 transform rounded-xl bg-black/50 opacity-0 transition-all duration-300 group-hover:opacity-100"
+              >
+                <div
+                  class="font1 m-1 flex h-8 w-full items-center justify-start space-x-2 p-1 text-white"
+                >
+                  <i class="fa-solid fa-play text-white"></i>
+                  <div>Watch now</div>
+                  <input type="range" name="range" />
+                  <div>
+                    <i class="fa-solid fa-heart mx-12 hover:text-red-600"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="font1 flex items-center justify-between">
+              <div class="flex items-center justify-center">
+                <img
+                  src="/build/images/images (1) (1).jpeg"
+                  alt="header1"
+                  width="50"
+                />
+                <p class="-mt-4">What Can Seyi Vibez & Tiwa Savage Do...</p>
+              </div>
+              <i class="fa-solid fa-list"></i>
+            </div>
+            <div class="font2 mx-12 -mt-4 w-fit text-gray-600">
+              Gusto TV Africa <i class="fa-solid fa-music text-black"></i>
+              <div class="font1 flex items-center justify-start gap-1">
+                Gusto TV Africa
+                <p class="h-1 w-1 rounded bg-gray-500"></p>
+                <p class="text-gray-600">1 day ago</p>
+              </div>
+            </div>
+          </div>
+          <!-- video list with header tags -->
+          <div class="group">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/youtube images/images (9).jpeg"
+                alt="firstimage"
+                width="400"
+                class="relative h-56 -translate-y-1 transform rounded-2xl"
+              />
+              <div
+                class="group-hover-bottom-0 absolute -bottom-10 w-full -translate-y-10 transform rounded-xl bg-black/50 opacity-0 transition-all duration-300 group-hover:opacity-100"
+              >
+                <div
+                  class="font1 m-1 flex h-8 w-full items-center justify-start space-x-2 p-1 text-white"
+                >
+                  <i class="fa-solid fa-play text-white"></i>
+                  <div>Watch now</div>
+                  <input type="range" name="range" />
+                  <div>
+                    <i class="fa-solid fa-heart mx-12 hover:text-red-600"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="font1 flex items-center justify-between">
+              <div class="flex items-center justify-center">
+                <img
+                  src="/build/images/images (1) (1).jpeg"
+                  alt="header1"
+                  width="50"
+                />
+                <p class="-mt-4">
+                  Blaqbonez - Breaking The Yoke of Love (Offi..
+                </p>
+              </div>
+              <i class="fa-solid fa-list"></i>
+            </div>
+            <div class="font2 mx-12 -mt-4 w-fit text-gray-600">
+              Blaqbonezs<i class="fa-solid fa-music text-black"></i>
+              <div class="font1 flex items-center justify-start gap-1">
+                809k views
+                <p class="h-1 w-1 rounded bg-gray-500"></p>
+                <p class="text-gray-600">1 months ago</p>
+              </div>
+            </div>
+          </div>
+          <!-- video list with header tags -->
+          <div class="group">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/youtube images/images (7).jpeg"
+                alt="firstimage"
+                width="400"
+                class="relative h-56 -translate-y-1 transform rounded-2xl"
+              />
+              <div
+                class="group-hover-bottom-0 absolute -bottom-10 w-full -translate-y-10 transform rounded-xl bg-black/50 opacity-0 transition-all duration-300 group-hover:opacity-100"
+              >
+                <div
+                  class="font1 m-1 flex h-8 w-full items-center justify-start space-x-2 p-1 text-white"
+                >
+                  <i class="fa-solid fa-play text-white"></i>
+                  <div>Watch now</div>
+                  <input type="range" name="range" />
+                  <div>
+                    <i class="fa-solid fa-heart mx-12 hover:text-red-600"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="font1 flex items-center justify-between">
+              <div class="flex items-center justify-center">
+                <img
+                  src="/build/images/images (1) (1).jpeg"
+                  alt="header1"
+                  width="50"
+                />
+                <p class="-mt-4">TEAM EDO vs TEAM YORUBA</p>
+              </div>
+              <i class="fa-solid fa-list"></i>
+            </div>
+            <div class="font2 mx-12 -mt-4 w-fit text-gray-600">
+              Hype Squad
+              <div class="font1 flex items-center justify-start gap-1">
+                56k views
+                <p class="h-1 w-1 rounded bg-gray-500"></p>
+                <p class="text-gray-600">7 days ago</p>
+              </div>
+            </div>
+          </div>
+          <!-- video list with header tags -->
+          <div class="group">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/youtube images/download.jpeg"
+                alt="firstimage"
+                width="400"
+                class="relative h-56 -translate-y-1 transform rounded-2xl"
+              />
+              <div
+                class="group-hover-bottom-0 absolute -bottom-10 w-full -translate-y-10 transform rounded-xl bg-black/50 opacity-0 transition-all duration-300 group-hover:opacity-100"
+              >
+                <div
+                  class="font1 m-1 flex h-8 w-full items-center justify-start space-x-2 p-1 text-white"
+                >
+                  <i class="fa-solid fa-play text-white"></i>
+                  <div>Watch now</div>
+                  <input type="range" name="range" />
+                  <div>
+                    <i class="fa-solid fa-heart mx-12 hover:text-red-600"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="font1 flex items-center justify-between">
+              <div class="flex items-center justify-center">
+                <img
+                  src="/build/images/images (1) (1).jpeg"
+                  alt="header1"
+                  width="50"
+                />
+                <p class="-mt-4">
+                  Asake:Yoga/Organise | The Tonight Show starring...
+                </p>
+              </div>
+              <i class="fa-solid fa-list"></i>
+            </div>
+            <div class="font2 mx-12 -mt-5 w-fit text-gray-600">
+              The Tonight Show Starring Jimmy Fa...
+              <div class="font1 flex items-center justify-start gap-1">
+                275k views
+                <p class="h-1 w-1 rounded bg-gray-500"></p>
+                <p class="text-gray-600">10 days ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 flex items-center justify-start gap-6">
+          <div class="group">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/youtube images/images (10).jpeg"
+                alt="firstimage"
+                width="400"
+                class="relative h-56 -translate-y-1 transform rounded-2xl"
+              />
+              <div
+                class="group-hover-bottom-0 absolute -bottom-10 w-full -translate-y-10 transform rounded-xl bg-black/50 opacity-0 transition-all duration-300 group-hover:opacity-100"
+              >
+                <div
+                  class="font1 m-1 flex h-8 w-full items-center justify-start space-x-2 p-1 text-white"
+                >
+                  <i class="fa-solid fa-play text-white"></i>
+                  <div>Watch now</div>
+                  <input type="range" name="range" />
+                  <div>
+                    <i class="fa-solid fa-heart mx-12 hover:text-red-600"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="font1 flex items-center justify-between">
+              <div class="flex items-center justify-center">
+                <img
+                  src="/build/images/images (1) (1).jpeg"
+                  alt="header1"
+                  width="50"
+                />
+                <p class="-mt-4">
+                  Davido timeless Album is finally here just as...
+                </p>
+              </div>
+              <i class="fa-solid fa-list"></i>
+            </div>
+            <div class="font2 mx-12 -mt-4 w-fit text-gray-600">
+              #davidotypebeat <i class="fa-solid fa-music text-black"></i>
+              <div class="font1 flex items-center justify-start gap-1">
+                4511 views
+                <p class="h-1 w-1 rounded bg-gray-500"></p>
+                <p class="text-gray-600">2days ago</p>
+              </div>
+            </div>
+          </div>
+          <!-- video list with header tags -->
+          <div class="group">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/youtube images/images (11).jpeg"
+                alt="firstimage"
+                width="400"
+                class="relative h-56 -translate-y-1 transform rounded-2xl"
+              />
+              <div
+                class="group-hover-bottom-0 absolute -bottom-10 w-full -translate-y-10 transform rounded-xl bg-black/50 opacity-0 transition-all duration-300 group-hover:opacity-100"
+              >
+                <div
+                  class="font1 m-1 flex h-8 w-full items-center justify-start space-x-2 p-1 text-white"
+                >
+                  <i class="fa-solid fa-play text-white"></i>
+                  <div>Watch now</div>
+                  <input type="range" name="range" />
+                  <div>
+                    <i class="fa-solid fa-heart mx-12 hover:text-red-600"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="font1 flex items-center justify-between">
+              <div class="flex items-center justify-center">
+                <img
+                  src="/build/images/images (1) (1).jpeg"
+                  alt="header1"
+                  width="50"
+                />
+                <p class="-mt-4">
+                  More ove Less Ego: "Y'all Go Listen to Tim...
+                </p>
+              </div>
+              <i class="fa-solid fa-list"></i>
+            </div>
+            <div class="font2 mx-12 -mt-4 w-fit text-gray-600">
+              DJ Hol Up <i class="fa-solid fa-music text-black"></i>
+              <div class="font1 flex items-center justify-start gap-1">
+                445 views
+                <p class="h-1 w-1 rounded bg-gray-500"></p>
+                <p class="text-gray-600">3 days ago</p>
+              </div>
+            </div>
+          </div>
+          <!-- video list with header tags -->
+          <div class="group">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/youtube images/images (12).jpeg"
+                alt="firstimage"
+                width="400"
+                class="relative h-56 -translate-y-1 transform rounded-2xl"
+              />
+              <div
+                class="group-hover-bottom-0 absolute -bottom-10 w-full -translate-y-10 transform rounded-xl bg-black/50 opacity-0 transition-all duration-300 group-hover:opacity-100"
+              >
+                <div
+                  class="font1 m-1 flex h-8 w-full items-center justify-start space-x-2 p-1 text-white"
+                >
+                  <i class="fa-solid fa-play text-white"></i>
+                  <div>Watch now</div>
+                  <input type="range" name="range" />
+                  <div>
+                    <i class="fa-solid fa-heart mx-12 hover:text-red-600"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="font1 flex items-center justify-between">
+              <div class="flex items-center justify-center">
+                <img
+                  src="/build/images/images (1) (1).jpeg"
+                  alt="header1"
+                  width="50"
+                />
+                <p class="-mt-4">Top 10|Cristiano Ronaldo Goals for United</p>
+              </div>
+              <i class="fa-solid fa-list"></i>
+            </div>
+            <div class="font2 mx-12 -mt-4 w-fit text-gray-600">
+              preierleaguegoals<i class="fa-solid fa-music text-black"></i>
+              <div class="font1 flex items-center justify-start gap-1">
+                1.51M
+                <p class="h-1 w-1 rounded bg-gray-500"></p>
+                <p class="text-gray-600">A year ago</p>
+              </div>
+            </div>
+          </div>
+          <!-- video list with header tags -->
+          <div class="group">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/youtube images/images (13).jpeg"
+                alt="firstimage"
+                width="400"
+                class="relative h-56 -translate-y-1 transform rounded-2xl"
+              />
+              <div
+                class="group-hover-bottom-0 absolute -bottom-10 w-full -translate-y-10 transform rounded-xl bg-black/50 opacity-0 transition-all duration-300 group-hover:opacity-100"
+              >
+                <div
+                  class="font1 m-1 flex h-8 w-full items-center justify-start space-x-2 p-1 text-white"
+                >
+                  <i class="fa-solid fa-play text-white"></i>
+                  <div>Watch now</div>
+                  <input type="range" name="range" />
+                  <div>
+                    <i class="fa-solid fa-heart mx-12 hover:text-red-600"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="font1 flex items-center justify-between">
+              <div class="flex items-center justify-center">
+                <img
+                  src="/build/images/images (1) (1).jpeg"
+                  alt="header1"
+                  width="50"
+                />
+                <p class="-mt-4">
+                  Introduction to Node JS|Node.js Tutorials...
+                </p>
+              </div>
+              <i class="fa-solid fa-list"></i>
+            </div>
+            <div class="font2 mx-12 -mt-5 w-fit text-gray-600">
+              Dave Gray
+              <div class="font1 flex items-center justify-start gap-1">
+                120k views
+                <p class="h-1 w-1 rounded bg-gray-500"></p>
+                <p class="text-gray-600">A year ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
