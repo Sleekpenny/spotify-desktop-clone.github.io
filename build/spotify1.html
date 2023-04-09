@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Desktop Clone</title>
+    <link rel="stylesheet" href="/build/css/style.css" />
+    <link rel="stylesheet" href="/build/css/css/solid.css" />
+    <link rel="stylesheet" href="/build/css/css/brands.css" />
+    <link rel="stylesheet" href="/build/css/css/fontawesome.css" />
+  </head>
+  <body class="bg1 min-h-screen">
+    <!-- Entire body of Spotify player -->
+    <section
+      class="continer shadow1 font1 bg2 relative m-20 mx-auto flex min-h-screen max-w-7xl text-black shadow-white"
+    >
+      <!-- Right Muisc listing -->
+      <section class="min-h-screen w-64 bg-black">
+        <div class="mb-2 flex items-center justify-between p-5">
+          <div>
+            <img
+              src="/build/images/Spotify_Logo_RGB_White.png"
+              alt="logo"
+              width="100"
+            />
+          </div>
+          <div>
+            <img
+              src="/build/images/icons8-dots-loading-48.png"
+              alt="dots"
+              width="15"
+            />
+          </div>
+        </div>
+
+        <!-- Listing on right music side -->
+        <section class="mx-5 flex flex-col p-1 text-gray-300">
+          <a href="#">
+            <div
+              class="flex items-center space-x-4 hover:w-full hover:scale-95 hover:rounded hover:border-l-4 hover:border-emerald-400 hover:bg-stone-600/50"
+            >
+              <img
+                src="/build/images/icons8-home-24.png"
+                alt="home"
+                width="23"
+              />
+              <p>Home</p>
+            </div></a
+          >
+
+          <a href="#">
+            <div
+              class="mt-4 flex items-center space-x-4 hover:w-full hover:scale-95 hover:rounded hover:border-l-4 hover:border-emerald-400 hover:bg-stone-600/50"
+            >
+              <img
+                src="/build/images/icons8-coffee-bag-48.png"
+                alt="home"
+                width="21"
+              />
+              <p>Browse</p>
+            </div></a
+          >
+
+          <a href="#">
+            <div
+              class="mt-4 flex items-center space-x-4 hover:w-full hover:scale-95 hover:rounded hover:border-l-4 hover:border-emerald-400 hover:bg-stone-600/50"
+            >
+              <img
+                src="/build/images/icons8-online-48.png"
+                alt="home"
+                width="21"
+              />
+              <p>Radio</p>
+            </div></a
+          >
+
+          <a href="#">
+            <div
+              class="mt-4 flex items-center space-x-4 hover:w-full hover:scale-95 hover:rounded hover:border-l-4 hover:border-emerald-400 hover:bg-stone-600/50"
+            >
+              <img
+                src="/build/images/icons8-loading-heart-64.png"
+                alt="home"
+                width="21"
+              />
+              <p>For &nbsp; You</p>
+            </div></a
+          >
+
+          <a href="#">
+            <div
+              class="mt-4 flex items-center space-x-4 hover:w-full hover:scale-95 hover:rounded hover:border-l-4 hover:border-emerald-400 hover:bg-stone-600/50"
+            >
+              <img
+                src="/build/images/icons8-congruent-symbol-48.png"
+                alt="home"
+                width="21"
+                class="rotate-90 transform"
+              />
+              <p>Your Library</p>
+            </div></a
+          >
+
+          <!-- Libary section -->
+
+          <a href="#">
+            <div class="font2 mt-6 text-gray-500">YOUR LIBRARY</div></a
+          >
+          <a href="#">
+            <div class="font1 mt-2 text-gray-300">Made &nbsp; played</div>
+          </a>
+          <a href="#">
+            <div class="font1 mt-2 text-gray-300">Recently &nbsp; you</div></a
+          >
+          <a href="#"> <div class="font1 mt-2 text-gray-300">Songs</div> </a>
+          <a href="#"> <div class="font1 mt-2 text-gray-300">Albums</div></a>
+          <a href="#"> <div class="font1 mt-2 text-gray-300">Artist</div></a>
+          <a href="#"> <div class="font1 mt-2 text-gray-300">Stations</div></a>
+          <div class="font1 mt-2 text-gray-300">Local Files</div>
+          <a href="#"> <div class="font1 mt-2 text-gray-300">Podcasat</div></a>
+          <a href="#"> <div class="font1 mt-2 text-gray-300">Videos</div></a>
+
+          <!-- Playlist Section  -->
+          <div class="font2 mt-6 flex justify-between text-gray-500">
+            <div>PLAYLIST</div>
+            <div
+              class="flex h-5 w-5 items-center justify-center rounded-3xl border-2 border-gray-500"
+            >
+              <p class="trasform translatemm">+</p>
+            </div>
+          </div>
+          <div class="font1 mt-2 text-gray-300">Songs</div>
+          <a href="#"
+            ><div class="font1 mt-2 text-gray-300">Nursery Rhymes</div></a
+          >
+          <a href="#">
+            <div class="font1 mt-2 text-gray-300">Discover Weekly</div></a
+          >
+          <a href="#"
+            ><div class="font1 mt-2 text-gray-300">Blood Orange</div></a
+          >
+          <a href="#">
+            <div class="font1 mt-2 text-gray-300">Rap Cavier</div></a
+          >
+          <a href="#"> <div class="font1 mt-2 text-gray-300">Soulful</div></a>
+          <a href="#"> <div class="font1 mt-2 text-gray-300">R&B</div></a>
+          <a href="#"
+            ><div class="font1 mt-2 text-gray-300">Atmospheric Calm</div></a
+          >
+        </section>
+      </section>
+
+      <!-- header section on middle body =  -->
+      <section class="w-3/5 p-6">
+        <article class="flex items-center justify-between">
+          <div class="flex">
+            <div class="space-x-4">
+              <i class="fa-solid fa-angle-left font3 text-gray-300"></i>
+              <i class="fa-solid fa-angle-right font3 text-gray-500"></i>
+            </div>
+            <div>
+              <input
+                type="search"
+                name="q"
+                class="relative mx-8 w-64 rounded-xl bg-gray-400/20 p-1 pl-7 placeholder-stone-400 outline-none"
+                placeholder="Search"
+              />
+              <i class="fa-solid fa-search left1 absolute text-gray-300"></i>
+            </div>
+          </div>
+
+          <div class="flex w-64 items-center justify-end space-x-3">
+            <div class="w-7">
+              <img
+                src="/build/images/Screenshot_20230228-194619_Twitter.jpg"
+                alt="headerpic"
+                class="rounded-3xl"
+              />
+            </div>
+            <div class="font1 font-bold text-gray-300">Penny Sleekies</div>
+            <i class="fa-solid fa-angle-down font1 text-gray-300"></i>
+          </div>
+        </article>
+
+        <div class="font1 font4 mt-10 mb-2 text-gray-300">Home</div>
+
+        <!-- Played Song list -->
+        <div class="flex gap-4">
+          <div
+            class="flex w-52 items-center justify-start rounded bg-stone-700 text-gray-300"
+          >
+            <img
+              src="/build/images/4-44_album_cover.png"
+              alt="444"
+              width="50"
+              height="10"
+              class="rounded-l"
+            />
+            <p class="font5 mx-3 font-bold">4:44</p>
+          </div>
+          <div
+            class="flex w-52 items-center justify-start rounded bg-stone-700 text-gray-300"
+          >
+            <img
+              src="/build/images/images (6).jpeg"
+              alt="Liked"
+              width="50"
+              height="10"
+              class="rounded-l"
+            />
+            <p class="font5 mx-3 font-bold">Liked Songs</p>
+          </div>
+          <div
+            class="flex w-52 items-center justify-start rounded bg-stone-700 text-gray-300"
+          >
+            <img
+              src="/build/images/sinhala-rap-zillas.jpg"
+              alt="Sinhala"
+              width="50"
+              height="10"
+              class="rounded-l"
+            />
+            <p class="font5 mx-3 font-bold">Sinhala Rapz</p>
+          </div>
+          <div
+            class="flex w-52 items-center justify-start rounded bg-stone-700 text-gray-300"
+          >
+            <img
+              src="/build/images/Screenshot_20230405-173235_Chrome.jpg"
+              alt="Souled Out"
+              width="50"
+              height="10"
+              class="rounded-l"
+            />
+            <p class="font5 mx-3 font-bold">Souled Out</p>
+          </div>
+        </div>
+
+        <div class="mt-4 flex gap-4">
+          <div
+            class="flex w-52 items-center justify-start rounded bg-stone-700 text-gray-300"
+          >
+            <img
+              src="/build/images/Screenshot_20230405-173133_Chrome.jpg"
+              alt="Lemonade"
+              width="50"
+              height="10"
+              class="rounded-l"
+            />
+            <p class="font5 mx-3 font-bold">Lemonade</p>
+          </div>
+          <div
+            class="flex w-52 items-center justify-start rounded bg-stone-700 text-gray-300"
+          >
+            <img
+              src="/build/images/images (7).jpeg"
+              alt="Times less"
+              width="50"
+              height="10"
+              class="rounded-l"
+            />
+            <p class="font5 mx-3 font-bold">Timeless</p>
+
+            <div class="ml-8">
+              <img
+                src="/build/images/icons8-dots-loading-48.png"
+                alt="dots"
+                width="15"
+              />
+            </div>
+          </div>
+          <div
+            class="flex w-52 items-center justify-start rounded bg-stone-700 text-gray-300"
+          >
+            <img
+              src="/build/images/images (8).jpeg"
+              alt="Fish"
+              width="50"
+              height="10"
+              class="rounded-l"
+            />
+            <p class="font5 mx-3 font-bold">Fall in Love with you</p>
+          </div>
+          <div
+            class="flex w-52 items-center justify-start rounded bg-stone-700 text-gray-300"
+          >
+            <img
+              src="/build/images/20230403_005900.jpg"
+              alt="Burna Boy"
+              width="50"
+              height="10"
+              class="rounded-l"
+            />
+            <p class="font5 mx-3 font-bold">Odogwu</p>
+          </div>
+        </div>
+
+        <div
+          class="font5 font4 mt-5 mb-2 flex items-end justify-between text-gray-300"
+        >
+          <div class="text-xl">Recently Played</div>
+          <div>See all</div>
+        </div>
+
+        <section class="flex space-x-5">
+          <div class="group mt-4 w-44 rounded-md bg-stone-700/50 p-1">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/images (7).jpeg"
+                alt="Timeless album"
+                width="140"
+                class="w-full"
+              />
+              <div
+                class="absolute -bottom-10 flex h-full w-full items-end justify-end text-white opacity-0 transition-all duration-300 hover:bottom-0 hover:opacity-100"
+              >
+                <img
+                  src="/build/images/Spotify_ProductMarketing_UIRefresh_GIFs_v03_022120_SR_ShuffleButton_NoLogo-2.gif"
+                  alt="spotify product"
+                  width="70"
+                  class="cursor-pointer"
+                />
+              </div>
+            </div>
+            <p class="font1 mt-2 text-gray-300">Davido</p>
+            <p class="text font5 text-stone-400">Timeless</p>
+          </div>
+
+          <div class="group mt-4 w-44 rounded-md bg-stone-700/50 p-1">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/images (9).jpeg"
+                alt="Timeless album"
+                width="140"
+                class="w-full"
+              />
+              <div
+                class="absolute -bottom-10 flex h-full w-full items-end justify-end text-white opacity-0 transition-all duration-300 hover:bottom-0 hover:opacity-100"
+              >
+                <img
+                  src="/build/images/Spotify_ProductMarketing_UIRefresh_GIFs_v03_022120_SR_ShuffleButton_NoLogo-2.gif"
+                  alt="spotify product"
+                  width="70"
+                  class="cursor-pointer"
+                />
+              </div>
+            </div>
+            <p class="font1 mt-2 text-gray-300">Jhene Aiko Mix</p>
+            <p class="font5 text-stone-400">
+              This is Jhene Aiko, The essential tracks, all in one playlist.
+            </p>
+          </div>
+
+          <div class="group mt-4 w-44 rounded-md bg-stone-700/50 p-1">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/images (10).jpeg"
+                alt="Timeless album"
+                width="140"
+                class="w-full"
+              />
+              <div
+                class="absolute -bottom-10 flex h-full w-full items-end justify-end text-white opacity-0 transition-all duration-300 hover:bottom-0 hover:opacity-100"
+              >
+                <img
+                  src="/build/images/Spotify_ProductMarketing_UIRefresh_GIFs_v03_022120_SR_ShuffleButton_NoLogo-2.gif"
+                  alt="spotify product"
+                  width="70"
+                  class="cursor-pointer"
+                />
+              </div>
+            </div>
+            <p class="font1 mt-2 text-gray-300">Jazz Mix</p>
+            <p class="text font5 text-stone-400">
+              Betty Carter, Teddy Wilson, Steve Davis and more
+            </p>
+          </div>
+          <div class="group mt-4 w-44 rounded-md bg-stone-700/50 p-1">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/4-44_album_cover.png"
+                alt="Timeless album"
+                width="140"
+                class="w-full"
+              />
+              <div
+                class="absolute -bottom-10 flex h-full w-full items-end justify-end text-white opacity-0 transition-all duration-300 hover:bottom-0 hover:opacity-100"
+              >
+                <img
+                  src="/build/images/Spotify_ProductMarketing_UIRefresh_GIFs_v03_022120_SR_ShuffleButton_NoLogo-2.gif"
+                  alt="spotify product"
+                  width="70"
+                  class="cursor-pointer"
+                />
+              </div>
+            </div>
+            <p class="font1 mt-2 text-gray-300">Jay Z</p>
+            <p class="text font5 text-stone-400">4:44</p>
+          </div>
+        </section>
+
+        <!-- second row music album -->
+        <section class="flex space-x-5">
+          <div class="group mt-4 w-44 rounded-md bg-stone-700/50 p-1">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/37i9dQZF1DZ06evO0PAvyy-default.jpg"
+                alt="Timeless album"
+                width="140"
+                class="w-full"
+              />
+              <div
+                class="absolute -bottom-10 flex h-full w-full items-end justify-end text-white opacity-0 transition-all duration-300 hover:bottom-0 hover:opacity-100"
+              >
+                <img
+                  src="/build/images/Spotify_ProductMarketing_UIRefresh_GIFs_v03_022120_SR_ShuffleButton_NoLogo-2.gif"
+                  alt="spotify product"
+                  width="70"
+                  class="cursor-pointer"
+                />
+              </div>
+            </div>
+            <p class="font1 mt-2 text-gray-300">R&B Mix</p>
+            <p class="text font5 text-stone-400">
+              Ari Lennox, Miguel, Fantasia, Wizkid, Sarah Breeding
+            </p>
+          </div>
+
+          <div class="group mt-4 w-44 rounded-md bg-stone-700/50 p-1">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/african-heat-rema-2021.jpg"
+                alt="Timeless album"
+                width="140"
+                class="w-full"
+              />
+              <div
+                class="absolute -bottom-10 flex h-full w-full items-end justify-end text-white opacity-0 transition-all duration-300 hover:bottom-0 hover:opacity-100"
+              >
+                <img
+                  src="/build/images/Spotify_ProductMarketing_UIRefresh_GIFs_v03_022120_SR_ShuffleButton_NoLogo-2.gif"
+                  alt="spotify product"
+                  width="70"
+                  class="cursor-pointer"
+                />
+              </div>
+            </div>
+            <p class="font1 mt-2 text-gray-300">Afrobeats Mix</p>
+            <p class="font5 text-stone-400">
+              Tems, Rema, Victony, Davido, Omah Lay
+            </p>
+          </div>
+
+          <div class="group mt-4 w-44 rounded-md bg-stone-700/50 p-1">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/images (12).jpeg"
+                alt="Timeless album"
+                width="140"
+                class="w-full"
+              />
+              <div
+                class="absolute -bottom-10 flex h-full w-full items-end justify-end text-white opacity-0 transition-all duration-300 hover:bottom-0 hover:opacity-100"
+              >
+                <img
+                  src="/build/images/Spotify_ProductMarketing_UIRefresh_GIFs_v03_022120_SR_ShuffleButton_NoLogo-2.gif"
+                  alt="spotify product"
+                  width="70"
+                  class="cursor-pointer"
+                />
+              </div>
+            </div>
+            <p class="font1 mt-2 text-gray-300">6:00 sunrise</p>
+            <p class="text font5 text-stone-400">
+              Jonathan Ogden, On Earth, Alabaste & Co, Zimmers...
+            </p>
+          </div>
+          <div class="group mt-4 w-44 rounded-md bg-stone-700/50 p-1">
+            <div class="relative overflow-hidden">
+              <img
+                src="/build/images/images (11).jpeg"
+                alt="Timeless album"
+                width="140"
+                class="w-full"
+              />
+              <div
+                class="absolute -bottom-10 flex h-full w-full items-end justify-end text-white opacity-0 transition-all duration-300 hover:bottom-0 hover:opacity-100"
+              >
+                <img
+                  src="/build/images/Spotify_ProductMarketing_UIRefresh_GIFs_v03_022120_SR_ShuffleButton_NoLogo-2.gif"
+                  alt="spotify product"
+                  width="70"
+                  class="cursor-pointer"
+                />
+              </div>
+            </div>
+            <p class="font1 mt-2 text-gray-300">Lazy Sunday</p>
+            <p class="text font5 text-stone-400">
+              Tender Spring, Daniel Ceaser, Elior, Aso, Thaehan
+            </p>
+          </div>
+        </section>
+      </section>
+
+      <!-- Far right section with Music lisiting -->
+      <section class="w-1/5">
+        <div class="relative overflow-hidden">
+          <img
+            src="/build/images/images (13).jpeg"
+            alt="playlist"
+            class="w-full"
+          />
+          <div
+            class="absolute bottom-0 flex h-full w-full flex-col items-center justify-center bg-black text-white opacity-60"
+          >
+            <p class="font6 text-center">See what your friends are playing</p>
+            <div
+              class="font5 cursor-pointer rounded-2xl border bg-white p-1 px-8 text-center font-bold text-black hover:border-none hover:bg-emerald-900"
+            >
+              FIND FRIENDS
+            </div>
+          </div>
+        </div>
+
+        <div class="relative mt-2 overflow-hidden">
+          <div class="m-4 flex">
+            <img
+              src="/build/images/Bitch,_Don't_Kill_My_Vibe_cover_art.jpg"
+              alt="BDKMV"
+              width="50"
+              class="rounded-3xl"
+            />
+            <div class="font7 mx-6 mt-2 font-bold text-white">
+              Kendrick Lamar
+              <div class="font5 text-gray-200">
+                <i class="fa-solid fa-pause font7 mr-4 text-emerald-600"></i>
+                Bitch don't kill My...
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute bottom-0 flex h-full w-full flex-col items-center justify-center bg-black text-white opacity-60"
+          ></div>
+          <!-- 2 -->
+          <div class="m-4 flex">
+            <img
+              src="/build/images/images (16).jpeg"
+              alt="BDKMV"
+              width="50"
+              class="rounded-3xl"
+            />
+            <div class="font7 mx-6 mt-2 font-bold text-white">
+              Ari Lennox
+              <div class="font5 text-gray-200">
+                <i class="fa-solid fa-play font7 mr-4 text-emerald-600"></i> La
+                la la la
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute bottom-0 flex h-full w-full flex-col items-center justify-center text-white"
+          ></div>
+          <div class="m-4 flex">
+            <img
+              src="/build/images/Screenshot_20230405-173235_Chrome.jpg"
+              alt="BDKMV"
+              width="50"
+              class="rounded-3xl"
+            />
+            <div class="font7 mx-6 mt-2 font-bold text-white">
+              Jhene Aiko
+              <div class="font5 text-gray-200">
+                <i class="fa-solid fa-play font7 mr-4 text-emerald-600"></i>
+                spotless minds
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute bottom-0 flex h-full w-full flex-col items-center justify-center text-white"
+          ></div>
+          <div class="m-4 flex">
+            <img
+              src="/build/images/images (18).jpeg"
+              alt="BDKMV"
+              width="50"
+              class="rounded-3xl"
+            />
+            <div class="font7 mx-6 mt-2 font-bold text-white">
+              Asa
+              <div class="font5 text-gray-200">
+                <i class="fa-solid fa-play font7 mr-4 text-emerald-600"></i>
+                Nike
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute bottom-0 flex h-full w-full flex-col items-center justify-center text-white"
+          ></div>
+          <div class="m-4 flex">
+            <img
+              src="/build/images/images (15).jpeg"
+              alt="BDKMV"
+              width="50"
+              class="rounded-3xl"
+            />
+            <div class="font7 mx-6 mt-2 font-bold text-white">
+              Ari Lennox
+              <div class="font5 text-gray-200">
+                <i class="fa-solid fa-play font7 mr-4 text-emerald-600"></i>
+                Shea Butter baby
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute bottom-0 flex h-full w-full flex-col items-center justify-center text-white"
+          ></div>
+          <div class="m-4 flex">
+            <img
+              src="/build/images/images (14).jpeg"
+              alt="BDKMV"
+              width="50"
+              class="rounded-3xl"
+            />
+            <div class="font7 mx-6 mt-2 font-bold text-white">
+              Drake ft Jay Z
+              <div class="font5 text-gray-200">
+                <i class="fa-solid fa-play font7 mr-4 text-emerald-600"></i>
+                Love All
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute bottom-0 flex h-full w-full flex-col items-center justify-center text-white"
+          ></div>
+          <div class="m-4 flex">
+            <img
+              src="/build/images/images (14).jpeg"
+              alt="BDKMV"
+              width="50"
+              class="rounded-3xl"
+            />
+            <div class="font7 mx-6 mt-2 font-bold text-white">
+              Drake
+              <div class="font5 text-gray-200">
+                <i class="fa-solid fa-play font7 mr-4 text-emerald-600"></i> TSU
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute bottom-0 flex h-full w-full flex-col items-center justify-center text-white"
+          ></div>
+          <div class="m-4 flex">
+            <img
+              src="/build/images/images (15).jpeg"
+              alt="BDKMV"
+              width="50"
+              class="rounded-3xl"
+            />
+            <div class="font7 mx-6 mt-2 font-bold text-white">
+              Ari Lennox
+              <div class="font5 text-gray-200">
+                <i class="fa-solid fa-play font7 mr-4 text-emerald-600"></i> New
+                Apartment
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute bottom-0 flex h-full w-full flex-col items-center justify-center text-white"
+          ></div>
+          <div class="m-4 flex">
+            <img
+              src="/build/images/images (17).jpeg"
+              alt="BDKMV"
+              width="50"
+              class="rounded-3xl"
+            />
+            <div class="font7 mx-6 mt-2 font-bold text-white">
+              Tems
+              <div class="font5 text-gray-200">
+                <i class="fa-solid fa-play font7 mr-4 text-emerald-600"></i>
+                These Days
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute bottom-0 flex h-full w-full flex-col items-center justify-center text-white"
+          ></div>
+        </div>
+      </section>
+
+      <!-- FOOTER MUSIC READING -->
+      <section class="bg3 absolute bottom-0 flex w-full justify-between p-3">
+        <div class="font5 flex items-center text-gray-300">
+          <img
+            src="/build/images/Bitch,_Don't_Kill_My_Vibe_cover_art.jpg"
+            alt="Kendrick"
+            width="50"
+            class="mx-2 rounded"
+          />
+          <div class="mx-2">
+            <div>
+              Kendrick Lamar
+              <i class="fa-solid fa-heart ml-4 text-emerald-400"></i>
+            </div>
+            <div class="text-gray-400">Bitch Don't Kill My Vibes</div>
+          </div>
+        </div>
+
+        <div class="font1 flex text-gray-400">
+          <div class="flex w-96">
+            <p class="translatemm1">2:11</p>
+            <div class="ml-2 h-1 w-40 rounded-sm bg-white">
+              <div class="ml-2 h-1 w-80 rounded-sm bg-gray-500/20"></div>
+            </div>
+            <p class="translatemm2 text-right">4:21</p>
+          </div>
+          <div class="translatemm4 mt-5 flex cursor-pointer justify-start">
+            <i
+              class="fa-solid fa-shuffle font5 mx-2 text-gray-300 hover:text-emerald-400"
+            ></i>
+            <i
+              class="fa-solid fa-play font5 mx-2 text-gray-300 hover:text-emerald-400"
+            ></i>
+            <i
+              class="fa-solid fa-pause font5 mx-2 text-gray-300 hover:text-emerald-400"
+            ></i>
+            <img
+              src="/build/images/icons8-play-48.png"
+              alt="backplay"
+              width="9"
+              class="translatemm7 h-3"
+            />
+            <i
+              class="fa-solid fa-repeat font5 mx-4 text-gray-300 hover:text-emerald-400"
+            ></i>
+          </div>
+        </div>
+
+        <div clas="flex">
+          <div class="flex space-x-4">
+            <img
+              src="/build/images/icons8-tasklist-48.png"
+              alt="tracklist"
+              width="15"
+            />
+            <img
+              src="/build/images/icons8-multiple-devices-48.png"
+              alt="tracklist"
+              width="15"
+            />
+            <img
+              src="/build/images/icons8-speaker-48.png"
+              alt="tracklist"
+              width="15"
+            />
+            <div
+              class="translatemm6 ml-2 h-1 w-20 rounded-md bg-gray-300"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>

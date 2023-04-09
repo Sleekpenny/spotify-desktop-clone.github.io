@@ -2,20 +2,104 @@
 @tailwind components;
 @tailwind utilities;
 
-.fontyoutube {
-    font-size: 0.8vh;
-}
 
 .font1{
-    font-size:1.7vh;
-    font-family: corbel ;
-    font-weight: 700;
+    font-size:1.5vh;
+    font-family: corbel;
+    text-transform: capitalize;
+    font-weight: 400;
+    
+    
 }
-
-.translate {
-    transform: translateY(-0.2rem);
-}
-
 .font2 {
-    font-size: 1.5vh;
+    font-size:1.5vh;
+    font-family: corbel;
+    letter-spacing: 4px;
+}
+.font7 {
+    font-size:1.5vh;
+    font-family: Gotham;
+    
+}
+.font3 {
+    font-size:1.7vh;
+    font-family: Gotham;
+    
+}
+.font4 {
+    font-size:4vh;
+    font-family: Gotham;
+    font-weight:bolder;
+    
+}
+.font5 {
+    font-size:1.2vh;
+    font-family: corbel;
+    font-weight: 800;
+
+}
+
+.font6 {
+    font-size: 2.5vh;
+    font-family: corbel;
+    padding:20px;
+    font-weight: bold;
+}
+.left1{
+    left:22rem;
+    padding-top: 3px;
+    top:1.8rem
+    
+}
+
+
+.bg1 {
+    background-image:linear-gradient(rgb(77, 66, 10),black);
+    background-image: url(/build/images/asakaa-Yaw-TOG.jpg);
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: cover;
+}
+
+.bg2{
+    background-image:linear-gradient(rgba(2, 24, 27, 0.87),black);
+}
+
+.shadow1 {
+    box-shadow: 3px 2px 10px -1px white;
+}
+.shadow2 {
+    box-shadow: 1px 1px 5px -1px white;
+}
+
+.bg3 {
+    background-color:rgba(1, 25, 29, 0.74);
+}
+
+.translatemm {
+    transform: translateX(0.18rem);
+}
+.translatemm7 {
+    transform: translate(0.2rem, -0.10rem);
+}
+
+.translatemm1 {
+    transform: translateY(-0.30rem);
+}
+.translatemm2 {
+    transform: translate(11rem,-0.4rem);
+}
+.translatemm3 {
+    transform: rotate(180deg) ; 
+}
+
+.translatemm5 {
+    transform: translateY(2rem) ; 
+}
+
+.translatemm4 {
+    transform: translateX(-15rem);
+}
+.translatemm6 {
+    transform: translateY(0.3rem)
 }
